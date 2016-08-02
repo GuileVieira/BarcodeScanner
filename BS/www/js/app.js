@@ -19,7 +19,7 @@ angular.module('starter', ['ionic','controller', 'servScn'])
       cordova.plugins.Keyboard.disableScroll(true);
     }
     if(window.StatusBar) {
-      StatusBar.styleLightContent();
+     StatusBar.backgroundColorByName("gray");
     }
   });
 })

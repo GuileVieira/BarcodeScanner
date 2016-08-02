@@ -18,6 +18,9 @@ angular.module('controller', ['starter'])
 		
 		that.url.link =  result.text; 
 	}
+	/***************************************
+
+				ADICIONAR DIALOGS PLUGIN CORDOVA
 
   /*	$scope.show = function(result){
   		var link = Scan.getLink().text;  		
